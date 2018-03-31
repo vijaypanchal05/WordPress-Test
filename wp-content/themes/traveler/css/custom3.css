@@ -1,0 +1,73 @@
+/* Single Room */
+.hotel-room-form .alert{
+    margin-top: 10px;
+}
+#single-room .room-facility{
+    margin-bottom: 20px;
+}
+#single-room .calendar-wrapper{
+    margin-top: 10px;
+}
+.vc_custom_1439366124092{
+    padding-top: 0 !important;
+}
+.comments-area .alert{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#btn-booking-now{
+    position: fixed;
+    bottom: 80px;
+    z-index: 999999;
+    border-radius: 3px !important;
+    display: none;
+    right: 15px;
+}
+
+
+.hotel-room-form:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+@media screen and (min-width: 993px) {
+    #btn-booking-now{
+        display: none !important;
+    }
+}
+
+/* Responsive */
+@media screen and (max-width: 992px) {
+    #single-room .title {
+        margin-top: 10px;
+    }
+    #btn-booking-now{
+        display: block;
+    }
+}
+.single-room-form{
+    position: relative;
+}
+/* Custom price for extra service */
+#form-booking-room-over{
+    display: none;
+    z-index: 99999;
+    position: absolute;
+    top: 0;
+    left:0;
+    background: rgba(255,255,255,0.7);
+    height:100%;
+    width: 100%;
+    text-align: center;
+}
+.over-helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+#form-booking-room-over img{
+    vertical-align: middle;
+    width: 35px;
+}

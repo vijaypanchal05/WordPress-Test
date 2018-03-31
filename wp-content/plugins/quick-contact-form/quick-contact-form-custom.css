@@ -1,0 +1,15 @@
+.qcf-style.default {max-width:100%;overflow:hidden;width:100%;}
+.qcf-style.default input[type=text], .qcf-style.default textarea, .qcf-style.default select, .qcf-style.default #submit {border-radius:0;}
+.qcf-style.default h2 {color: #465069;font-size: 1.6em;;height:auto;}.qcf-style.default p, .qcf-style.default select{font-family: arial, sans-serif; font-size: 1em;color: #465069;height:auto;line-height:normal;height:auto;}
+.qcf-style.default div.rangeslider, .qcf-style.default div.rangeslider__fill {height: 1em;background: #CCC;}
+.qcf-style.default div.rangeslider__fill {background: #00ff00;}
+.qcf-style.default div.rangeslider__handle {background: white;border: 1px solid #CCC;width: 2em;height: 2em;position: absolute;top: -0.5em;-webkit-border-radius:#FFF%;-moz-border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;border-radius:50%;}
+.qcf-style.default div.qcf-slideroutput{font-size:1em;color:#465069;}.qcf-style.default input[type=text], .qcf-style.default textarea, .qcf-style.default select {border: 1px solid #415063;background:#FFFFFF;font-family: arial, sans-serif; font-size: 1em; color: #465069;;line-height:normal;height:auto; margin: 2px 0 3px 0;padding: 6px;}
+.qcf-style.default .qcfcontainer input + label, .qcf-style.default .qcfcontainer textarea + label {font-family: arial, sans-serif; font-size: 1em; color: #465069;;}
+.qcf-style.default input:focus, .qcf-style.default textarea:focus {background:#FFFFCC;}
+.qcf-style.default input[type=text].required, .qcf-style.default select.required, .qcf-style.default textarea.required {border: 1px solid #00C618;}
+.qcf-style.default p span, .qcf-style.default .error {color:#D31900;clear:both;}
+
+.qcf-style.default input[type=text].error, .qcf-style.default select.error, .qcf-style.default textarea.error {border:1px solid #D31900;}
+.qcf-style.default #submit {float:left;width:100%;color:#FFF;background:#343838;border:1px solid #415063;font-family: arial, sans-serif;font-size: inherit;}
+.qcf-style.default #submit:hover{background:#888888;}

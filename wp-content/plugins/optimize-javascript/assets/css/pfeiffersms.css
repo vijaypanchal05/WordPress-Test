@@ -1,0 +1,222 @@
+.pfeiffersms-wrap {
+    background: #FFFFFF;
+    margin-top: 20px;
+}
+.pfeiffersms-form-container {
+	padding: 15px;
+    border: 1px solid #dedede;
+}
+.pfeiffersms-form-container h2 {
+	border-bottom: 1px solid #dcdcdc;
+    padding: 0 0 15px 0;
+    text-transform: uppercase;
+    margin: 20px 0 0 0;
+}
+.pfeiffersms-wrap .title{
+    background: #f3f3f3;
+    margin: 0;
+    padding: 15px;
+    text-transform: uppercase;
+    border: 1px solid #dedede;
+    border-top: 5px solid #c7c7c7;
+    border-bottom: 0;
+}
+.pfeiffersms-listcache {
+	margin-top: 10px;
+}
+.pfeiffersms-form-container h2:nth-of-type(3), 
+.pfeiffersms-form-container h2:nth-of-type(4),
+.pfeiffersms-form-container h2:first-of-type, 
+.pfeiffersms-form-container table.form-table:first-of-type, 
+.pfeiffersms-form-container table.form-table:nth-of-type(3), 
+.pfeiffersms-form-container table.form-table:nth-of-type(4) {
+    display: none;
+}
+.pfeiffersms-listcache a{
+	text-decoration: none;
+}
+.pfeiffersms-listcache a:hover{
+    border-bottom: 1px dashed #CCCCCC;
+}
+.pfeiffersms-input-container select,
+.pfeiffersms-input-container div
+{
+	float:left;
+}
+.pfeiffersms-small-input {
+	width: 50px;
+}
+#wp-admin-bar-pfeiffersms-admin-bar {
+	cursor: pointer;
+}
+#wp-admin-bar-pfeiffersms-admin-bar>div {
+	cursor: pointer !important;
+}
+#pfeiffersms-panel {
+	position: absolute;
+    background: #333;
+    top: 30px;
+    right: 0;
+    color: #d8d8d8;
+    z-index: 10000;
+    padding: 20px;
+	font-size: 14px !important;
+	max-width: 400px;
+	display:none;
+}
+#pfeiffersms-panel > p {
+	margin-top: 0;
+}
+#pfeiffersms-panel label {
+	font-family: monospace;
+}
+.pfeiffersms-deps-list {
+	font-size: 14px;
+    margin-left: 30px;
+    color: #969696;
+    font-family: monospace;
+}
+.pfeiffersms-clearfix::before,
+.pfeiffersms-clearfix::after
+{
+    content: "";
+    display: table;
+	clear: both;
+}
+#pfeiffersms-panel h1 {
+    font-weight: 700;
+    font-size: 135%;
+    margin: 0;
+    padding: 0;
+}
+
+.pfeiffersms-info,
+.pfeiffersms-warning {
+	padding: 10px 15px;
+	border: 1px solid #bfe0f9;
+    background: #eaf6ff;
+    font-size: 14px;
+    color: #475056;
+    margin-top: 10px;
+}
+.pfeiffersms-warning {
+    background: #ffeaea;
+	border: 1px solid #f9ccbf;
+}
+
+#pfeiffersms-panel ul {
+	list-style: none;
+}
+#pfeiffersms-panel a {
+	color: #6b8fd4;
+    font-size: 14px;
+}
+#pfeiffersms-form a {
+	color: #6b8fd4;
+    font-size: 13px;
+}
+
+
+#pfeiffersms-panel input {
+	float:left;
+}
+#pfeiffersms-panel .button {
+    border: 0;
+    text-indent: 0;
+    display: inline-block;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 20px;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px 0;
+    padding: 8px 18px;
+    border-radius: 2px;
+    cursor: pointer;
+    width: auto;
+    font-size: 13px;
+    background: #3b76e4;
+    color: #FFFFFF;
+    padding: 5px 15px;
+	float: left;
+}
+#pfeiffersms-panel .button:hover {
+	background: #2659b7;
+}
+
+#pfeiffersms-panel .button-disabled {
+	background: rgb(136, 136, 136) !important;
+    color: #CCCCCC !important;
+	cursor: default !important;
+}
+
+#pfeiffersms-submit-wrapper  .pfeiffersms-loader,
+#pfeiffersms-submit-wrapper  .pfeiffersms-msg {
+	float: left;
+    margin: 0 0 0 10px;
+    display: none;
+    width: 200px;
+    color: #72aadc;
+    font-size: 13px;
+}
+
+.pfeiffersms-loader {
+	display: block;
+    width: 32px;
+    height: 32px;
+    background: url('../img/loader.gif') 0 0 no-repeat;
+}
+
+#pfeiffersms-notmerged {
+	background: #ff8d00;
+    text-align: center;
+    padding: 1px 5px;
+    border-radius: 3px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+#pfeiffersms-adminbar-info {
+	font-size: 13px;
+    display: none;
+    background: #000000;
+    padding: 1px 20px;
+    margin-bottom: 15px;
+}
+#pfeiffersms-adminbar-info p {
+	margin-top: 10px !important;
+}
+.pfeiffersms-autoloadhandle {
+	color: #e0da8d;
+}
+.pfeiffersms-autoloadhandle div{
+	background-color: #c6d268;
+}
+.pfeiffersms-notincurrent {
+	color: #ff8484;
+}
+.pfeiffersms-notincurrent div {
+	background-color: #ff8484;
+}
+.pfeiffersms-notdetected div {
+	background-color: #FFFFFF;
+}
+.pfeiffersms-legend {
+	font-size: 13px;
+	margin-bottom: 8px;
+}
+.pfeiffersms-legend div {
+	width: 50px;
+    height: 10px;
+    float: left;
+    margin-right: 10px;
+    font-size: 13px;
+}
+.pfeiffersms-legend span {
+    display: inline-block;
+    float: left;
+    margin-top: -5px;
+    margin-left: 0;
+    max-width: 300px;
+    width: 80%;
+    line-height: 17px;
+}
